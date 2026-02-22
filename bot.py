@@ -3,7 +3,7 @@ import threading
 import time
 import requests
 
-TOKEN = "8416702430:AAElerASCZC9nHvrrGFDzFJsDbfxsH7YRoo"
+TOKEN = "8416702430:AAF5lNyiteQ97-rqpK4lU95F-u9AJfKUzO4"
 ADMIN_ID = 8348539088
 
 bot = telebot.TeleBot(TOKEN)
@@ -26,3 +26,4 @@ threading.Thread(target=keep_alive).start()
 
 print("Bot ishlayapti...")
 bot.infinity_polling()
+
